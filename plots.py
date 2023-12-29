@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 # Returns: None
 
 def scatter2D(title, xlabel, ylabel, X, y):
-    plt.figure(figsize=(30, 15))
+    plt.figure(figsize=(20, 8))
     plt.scatter(X[:, 0], X[:, 1], c = y)
     plt.title(title)
     plt.xlabel(xlabel)
@@ -29,7 +29,7 @@ def scatter2D(title, xlabel, ylabel, X, y):
 
 def scatter3D(title, xlabel, ylabel, zlabel, X, y):
     # Create a new figure
-    fig = plt.figure(figsize=(30, 15))
+    fig = plt.figure(figsize=(28, 13))
     # Add a subplot with 3D projection
     ax = fig.add_subplot(111, projection='3d')
     # Create the scatter plot
